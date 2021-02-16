@@ -1,0 +1,63 @@
+<!doctype html> 
+<html>
+  <head>
+  <style>
+  table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+   <h1>Tableaux complexes</h1>
+   <h2>Fusionner des cellules en colonnes</h2>
+   <table>
+  <tr>
+    <th>Nom</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>Abassi Hamid</td>
+    <td>0663636363</td>
+    <td>0661636360</td>
+  </tr>
+</table>
+
+    <h2>Fusionner des cellules en lignes</h2>
+<table>
+  <tr>
+    <th>Nom:</th>
+    <td>Abassi Hamid</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>0663636363</td>
+  </tr>
+  <tr>
+    <td>0661636360</td>
+  </tr>
+</table>
+
+<h3>Fusion des cellules</h3>
+<table>
+	<tr>
+    <td td colspan="2">Colonnes 1 et 2 fusionnées</td>
+    <td>Colonne3</td>
+    <td colspan="2">Colonnes 4 et 5 fusionnées</td>
+  </tr>
+
+  <tr>
+    <td>Colonne 1</td>
+    <td>Colonne 2</td>
+    <td>Colonne 3</td>
+    <td>Colonne 4</td>
+    <td>Colonne5</td>
+  </tr>
+  <tr>
+    <td>Colonne 1</td>
+    <td td colspan="3">Colonne 2,3 et 4</td>
+    <td>Colonne 5</td>
+  </tr>
+</table>	
+</body>
+
